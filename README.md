@@ -1,4 +1,4 @@
-参数：
+Secret：
 
 IBM_CF_USERNAME: IBM Cloud user name (email address)
 

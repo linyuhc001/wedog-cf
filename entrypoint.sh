@@ -1,6 +1,12 @@
 #!/bin/sh
 cat << EOF > /usr/local/etc/v2ray/config.json
 {
+  "dns": {
+    "servers": [
+       "https+local://1.1.1.1/dns-query",
+       "localhost"
+    ]
+  },
   "inbounds": [
   {
     "port": 18142
